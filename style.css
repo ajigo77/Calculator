@@ -16,9 +16,8 @@ body {
     position: relative;
     display:grid;
     cursor: pointer;
-    font-family: cursive;
+    font-family: 'Comic-sans';
     font-size: 20px;
-    border: 5px solid grey;
 }
 
 .value {
