@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing:border-box ;
+}
+
+body {
+    display:flex;
+    background: black;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.kalkulator {   
+    position: relative;
+    display:grid;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: 20px;
+    border: 5px solid grey;
+}
+
+.value {
+    grid-column: span 4; 
+    height: 90px;
+    width: 322px;
+    border:1px solid black;
+    font-size: 50px; 
+    padding: 10px;
+    font-family: cursive;
+    text-align: center;
+    cursor: pointer;
+    background-color: #222222;
+    border-radius: 10px;
+    color: #DDDDDD; 
+}
+
+.kalkulator span {
+    display:grid;
+    color:white;
+    font-weight: 700;
+    background: #222222;
+    place-items:center;
+    border:1px solid rgb(36, 34, 34);
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+}
+
+.kalkulator span:active{
+    background-color:#F0FF42;
+}
+
+.kalkulator span.clear{
+    grid-column: span 1;
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+    background-color: #FFB100;
+}
+
+.kalkulator span.plus{
+    grid-row: span 1;
+    background: #FFB100;
+}
+.kalkulator span.equal{
+    background-color:#86E5FF ;
+    color: black;
+
+}
+.kalkulator span.persent{
+  background-color: #FFB100;
+}
+.kalkulator span.for{
+  background-color: #FFB100;
+}
+.kalkulator span.bagi{
+    background-color: #FFB100;
+}
+.kalkulator span.nine{
+    background-color: #DDDDDD;
+    color: black;
+}
+.kalkulator span.eight{
+    background-color: #DDDDDD;
+    color: black;
+}
+.kalkulator span.sevent{
+    background-color: #DDDDDD;
+    color: black;
+}
